@@ -4,7 +4,7 @@ const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true); 
 
   return (
-    <div className="text-center "
+    <div className="text-center ">
       <h2 className="text-2xl font-bold mb-4 duration-300 hover:scale-110  ">
         {isLogin ? "Login" : "Sign Up"}
       </h2>
