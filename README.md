@@ -4,7 +4,7 @@ This is a responsive real estate frontend built with Vite + React, styled using 
 
 ### Live & Local URLs
 
-** 🔗 Live Site:[ https://my-real-estate-web.vercel.app](https://real-estate-project-using-reactjs-a.vercel.app/)
+** 🔗 Live Demo:[ https://my-real-estate-web.vercel.app](https://real-estate-project-using-reactjs-a.vercel.app/)
 
 ** Local Dev URL: http://localhost:5173
 
@@ -80,7 +80,7 @@ This project is deployed on Vercel. To deploy your own version:
 
 5.Deploy with a custom domain or default Vercel domain.
 
-🔗 Live Site: [https://my-real-estate-web.vercel.app](https://real-estate-project-using-reactjs-a.vercel.app/)
+🔗 Live Demo: [https://my-real-estate-web.vercel.app](https://real-estate-project-using-reactjs-a.vercel.app/)
 
 
 ### 📸 Preview:
