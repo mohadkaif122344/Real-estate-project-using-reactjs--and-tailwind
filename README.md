@@ -87,8 +87,10 @@ This project is deployed on Vercel. To deploy your own version:
 
 screenshots of our website is here-
 
-<img width="1900" height="963" alt="Screenshot 2025-09-05 112519" src="https://github.com/user-attachments/assets/1ede3238-4679-4344-9d9a-3683fbb1be2d" />
-<img width="1904" height="967" alt="Screenshot 2025-09-05 112247" src="https://github.com/user-attachments/assets/8e5289ed-128a-4848-ba89-86bcd9c41c7b" />
+<img width="1919" height="1017" alt="Screenshot 2026-02-14 190013" src="https://github.com/user-attachments/assets/3e661578-d154-486a-b33f-7bc297983412" />
+
+<img width="1913" height="1020" alt="Screenshot 2026-02-14 190044" src="https://github.com/user-attachments/assets/22d7b80e-d7d1-40d5-9a1b-9089b851cb02" />
+
 
 Mobile responsive
 
