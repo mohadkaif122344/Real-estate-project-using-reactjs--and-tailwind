@@ -4,12 +4,10 @@ const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true); 
 
   return (
-    <div className="text-center ">
-    
+    <div className="text-center "
       <h2 className="text-2xl font-bold mb-4 duration-300 hover:scale-110  ">
         {isLogin ? "Login" : "Sign Up"}
       </h2>
-
       <form className="flex flex-col gap-4">
        
         {!isLogin && (
@@ -30,8 +28,6 @@ const AuthForm = () => {
           placeholder="Password"
           className="border p-2 rounded-lg"
         />
-
-        
         {!isLogin && (
           <input
             type="password"
@@ -47,8 +43,6 @@ const AuthForm = () => {
           {isLogin ? "Login" : "Sign Up"}
         </button>
       </form>
-
-      
       <p className="mt-4 text-gray-600 dark:text-gray-300 duration-300 hover:scale-110 ">
         {isLogin ? "Don't have an account?" : "Already have an account?"}{" "}
         <button
