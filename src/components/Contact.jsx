@@ -77,8 +77,6 @@ const Contact  = () => {
             />
           </div>
         </div>
-
-        
         <div className="my-6 text-left">
           Message
           <textarea
@@ -87,9 +85,7 @@ const Contact  = () => {
             placeholder="Message"
             required
           ></textarea>
-        </div>
-
-      
+        </div>    
         <button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-12 mb-10 rounded transition-colors duration-300">
           {result ? result : "Send Message"}
         </button>
