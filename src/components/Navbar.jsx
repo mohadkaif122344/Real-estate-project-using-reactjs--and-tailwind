@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 3e9b071c0e8315ef650ebe8b815f81fde9c6dbad
 import { useState, useEffect } from "react";
 import { assets } from "../assets/assets";
 import Login from "./Login";
@@ -37,25 +32,12 @@ const Navbar = () => {
           <img
             src={assets.logo}
             alt="logo"
-            className="w-28 h-fullobject-contain rounded-lg 
-               transition duration-300  hover:bg-gray-700
-               hover:scale-110 hover:shadow-lg hover:shadow-sky-600/50 "
-          />
-
-<<<<<<< HEAD
-          <ul className="hidden md:flex gap-7  text-gray-400  dark:text-gray-100 font-extrabold">
-=======
-  <img 
-    src={assets.logo}
-    alt="logo"
-    className="w-24 h-fullobject-contain rounded-lg 
+            className="w-24 h-fullobject-contain rounded-lg 
                transition duration-300 
                hover:scale-110 hover:shadow-lg hover:shadow-sky-400/50 "
-  />
+          />
 
-         
-          <ul className="hidden md:flex gap-7 text-white dark:text-gray-200">
->>>>>>> 3e9b071c0e8315ef650ebe8b815f81fde9c6dbad
+          <ul className="hidden md:flex gap-7 text-gray-400 dark:text-gray-200 font-extrabold">
             {navLinks.map((link) => (
               <a
                 key={link}
@@ -69,10 +51,6 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="flex items-center gap-4">
-<<<<<<< HEAD
-=======
-            
->>>>>>> 3e9b071c0e8315ef650ebe8b815f81fde9c6dbad
             <button
               onClick={() => setShowLogin(true)}
               className="hidden md:block bg-gray-200 dark:bg-gray-800 text-black dark:text-white px-6 py-2 rounded-full shadow hover:bg-sky-500 hover:text-white transition"
@@ -91,7 +69,6 @@ const Navbar = () => {
               />
             </button>
 
-           
             <img
               onClick={() => setShowMobileMenu(true)}
               src={assets.menu_icon}
@@ -101,10 +78,6 @@ const Navbar = () => {
           </div>
         </div>
 
-<<<<<<< HEAD
-=======
-        
->>>>>>> 3e9b071c0e8315ef650ebe8b815f81fde9c6dbad
         <div
           className={`md:hidden fixed top-0 right-0 bottom-0 w-full h-full transform ${
             showMobileMenu ? "translate-x-0" : "translate-x-full"
@@ -155,10 +128,6 @@ const Navbar = () => {
         </div>
       </nav>
 
-<<<<<<< HEAD
-=======
-     
->>>>>>> 3e9b071c0e8315ef650ebe8b815f81fde9c6dbad
       {showLogin && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
           <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg w-96 relative">
