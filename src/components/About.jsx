@@ -14,9 +14,7 @@ const About = () => {
       >
         <h1
           className="text-2xl sm:text-4xl font-bold mb-2 text-black dark:text-white    
-                           duration-300 hover:scale-110 
-                         "
-        >
+                           duration-300 hover:scale-110 " >
           About{" "}
           <span className="underline underline-offset-4 decoration-1 font-light">
             Our Properties
@@ -27,10 +25,7 @@ const About = () => {
           Passionate About Properties, Dedicated to Your Vision
         </p>
         <div
-          className="flex flex-col md:flex-row items-center md:items-center md:gap-20 cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl active:shadow-xl
-
-"
-        >
+          className="flex flex-col md:flex-row items-center md:items-center md:gap-20 cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl active:shadow-xl">
           <img
             src={assets.brand3_img}
             alt="logo"
