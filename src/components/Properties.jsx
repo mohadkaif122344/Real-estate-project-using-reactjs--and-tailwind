@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { assets, projectsData } from "../assets/assets";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Properties = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+
   const [cardsToShow, setCardsToShow] = useState(1);
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -28,7 +28,7 @@ const Properties = () => {
   };
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center py-[90px] md:py-[10px] bg-neutral-200 dark:bg-gray-900 transition-colors duration-300">
+    <section className="min-h-[80vh] flex items-center justify-center py-[90px] md:py-[10px] bg-neutral-200 dark:bg-gray-900 transition-colors duration-300">
       <motion.div
         initial={{ opacity: 0, x: -200 }}
         transition={{ duration: 1 }}
@@ -118,7 +118,7 @@ const Properties = () => {
           </button>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 
